@@ -2,7 +2,29 @@
 
 A modern React application for managing and exploring user profiles with interactive map integration. Built with React, TypeScript, Tailwind CSS, and Google Maps API.
 
-![Profile Explorer](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&q=80)
+### Profile View
+
+![Profile](https://raw.githubusercontent.com/prakhar-8999/readmeImages/main/bynry/profile.png)
+
+- Shows Profile
+
+### Map View
+
+![Map View](https://raw.githubusercontent.com/prakhar-8999/readmeImages/main/bynry/map.png)
+
+- Shows Map
+
+### Profile List
+
+![Profile list](https://raw.githubusercontent.com/prakhar-8999/readmeImages/main/bynry/profile_list.png)
+
+- Shows Profile List
+
+### Add Profile Form
+
+![Add Profile](https://raw.githubusercontent.com/prakhar-8999/readmeImages/main/bynry/add_profile.png)
+
+- Shows Add Profile Form
 
 ## Features
 
@@ -125,8 +147,8 @@ src/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/profile-explorer.git
-cd profile-explorer
+git clone https://github.com/yourusername/bynry.git
+cd bynry
 ```
 
 2. Install dependencies:
@@ -166,5 +188,3 @@ VITE_MAP_API_KEY=your_api_key_here
 ```
 
 Note: Make sure to use exactly `VITE_MAP_API_KEY` as the environment variable name for the Google Maps API key.
-
-[Rest of the README remains the same...]
