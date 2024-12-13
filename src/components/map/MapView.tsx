@@ -15,7 +15,7 @@ export const MapView: React.FC<MapViewProps> = ({profile}) => {
   useEffect(() => {
     if (!profile) {
       navigate("/");
-      message.error("User not found!!");
+      message.error("Please select a user!!");
     }
   }, [profile, navigate]);
 
