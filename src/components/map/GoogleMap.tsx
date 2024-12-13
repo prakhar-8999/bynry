@@ -46,7 +46,7 @@ export const MapComponent: React.FC<MapComponentProps> = ({profile}) => {
           zoom={12}
           options={mapOptions}
         >
-          {profile && profile.coordinates.length === 2 ? (
+          {profile && profile.coordinates.length > 0 ? (
             <Marker
               position={{
                 lat: profile.coordinates[1],
