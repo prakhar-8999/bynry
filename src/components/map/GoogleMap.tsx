@@ -19,7 +19,7 @@ export const MapComponent: React.FC<MapComponentProps> = ({profile}) => {
   });
 
   useEffect(() => {
-    if (profile && profile.coordinates.length > 2) {
+    if (profile && profile.coordinates.length > 0) {
       setCenter({
         lat: profile.coordinates[1],
         lng: profile.coordinates[0],
