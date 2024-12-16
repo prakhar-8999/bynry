@@ -17,7 +17,7 @@ export const MapView: React.FC<MapViewProps> = ({profile}) => {
       navigate("/");
       message.error("Please select a user!!");
     }
-  }, [profile, navigate]);
+  }, [profile]);
 
   if (!profile) {
     return null;
